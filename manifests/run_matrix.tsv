@@ -1,0 +1,5 @@
+dataset_id	factor	perturbation	primary_gsea_size	iterations	configuration_status
+brd4_zbc	BRD4	ZBC-260	200	300	paths_required
+brd4_arv	BRD4	ARV-825	200	300	paths_required
+fosl2_zbc	FOSL2	ZBC-260	200	300	paths_required
+fosl2_arv	FOSL2	ARV-825	200	300	current_copied_master_defaults

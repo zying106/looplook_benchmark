@@ -1,0 +1,109 @@
+Package: looplook
+Title: Integrative Suite for Target Assignment and Functional Annotation of Chromatin Interactions
+Version: 0.99.19
+Authors@R: c(
+    person(given = "Ying", family = "ZHANG", 
+           role = c("aut", "cre"), 
+           email = "12207129@zju.edu.cn", 
+           comment = c(ORCID = "0009-0005-9644-7062")),
+    person(given = "Xingze", family = "HUANG",
+           role = c("ctb"),
+           email = "22407026@zju.edu.cn",
+           comment = c(ORCID = "0009-0002-9286-1344")),
+    person(given = "Ye", family = "CHEN",
+           role = "ctb",
+           email = "chenyephd@zju.edu.cn"),
+    person(given = "Liang", family = "XU",
+           role = c("ctb", "fnd"), 
+           email = "xuliang.phd@zju.edu.cn",
+           comment = "This work is funded by the Fundamental Research Funds for the Central Universities (226-2025-00101) and the National Natural Science Foundation of China (32270746, 82203247, 82203415).")
+  )
+Description: Provides tools for target assignment and functional annotation
+    of 3D chromatin interactions. Integrates genomic feature data,
+    expression-aware and chromatin-aware refinement, and connected-components
+    clustering to prioritize biologically relevant chromatin loops. Supports
+    functional profiling (GO, GSEA, motif, PPI) and programmatic figure
+    generation.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Config/testthat/edition: 3
+biocViews: Software, Epigenetics, HiC, ChIPSeq, RNASeq, 
+    GeneExpression, FunctionalGenomics, GenomeAnnotation, 
+    SystemsBiology, Visualization, Classification, Clustering, 
+    QualityControl, Spatial, Network, Coverage, GeneTarget
+Depends: R (>= 4.5.0)
+Imports: 
+    dplyr,
+    ggplot2,
+    tidyr,
+    GenomicRanges,
+    IRanges,
+    S4Vectors,
+    GenomeInfoDb,
+    openxlsx,
+    stats,
+    utils,
+    AnnotationDbi,
+    GenomicFeatures,
+    InteractionSet,
+    RColorBrewer,
+    data.table,
+    fields,
+    ggforce,
+    ggiraph,
+    ggrepel,
+    igraph,
+    karyoploteR,
+    ChIPseeker,
+    methods,
+    scales,
+    withr,
+    clusterProfiler,
+    enrichplot,
+    jsonlite,
+    patchwork,
+Suggests:
+    BiocStyle,
+    ComplexHeatmap,
+    circlize,
+    motifmatchr,
+    JASPAR2020,
+    TFBSTools,
+    BSgenome.Hsapiens.UCSC.hg38,
+    BSgenome.Hsapiens.UCSC.hg19,
+    BSgenome.Mmusculus.UCSC.mm10,
+    BSgenome.Mmusculus.UCSC.mm9,
+    ggseqlogo,
+    STRINGdb,
+    ggraph,
+    aplot,
+    ggtext,
+    ggpointdensity,
+    DT,
+    viridis,
+    ggpubr,
+    ggdist,
+    magick,
+    knitr,
+    kableExtra,
+    rmarkdown,
+    rtracklayer,
+    png,
+    regioneR,
+    BSgenome,
+    htmltools,
+    htmlwidgets,
+    networkD3,
+    webshot2,
+    TxDb.Hsapiens.UCSC.hg38.knownGene,
+    TxDb.Hsapiens.UCSC.hg19.knownGene,
+    TxDb.Mmusculus.UCSC.mm10.knownGene,
+    TxDb.Mmusculus.UCSC.mm9.knownGene,
+    org.Hs.eg.db,
+    org.Mm.eg.db,
+    testthat
+URL: https://github.com/zying106/looplook, https://zying106.github.io/looplook/
+BugReports: https://github.com/zying106/looplook/issues
+VignetteBuilder: knitr

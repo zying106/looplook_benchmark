@@ -1,0 +1,17 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+*.RData
+*.rds
+*.RDS
+*.pdf
+*.xlsx
+*.xls
+plot_queue/
+tmp_sim/
+tmp_unique/
+RUN_*.ok
+RUN_FINISHED_WITH_ISSUES.txt
+manuscript/
+CODE_GUIDE_CN.md
