@@ -16,3 +16,4 @@ RUN_FINISHED_WITH_ISSUES.txt
 manuscript/
 CODE_GUIDE_CN.md
 manifests/
+package_snapshot/CITATION.cff
