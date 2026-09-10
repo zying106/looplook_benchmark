@@ -1,6 +1,0 @@
-analysis	parameter	reported_value	notes
-GSEA resampling	sample_size	200	Primary manuscript value; use size200 outputs
-GSEA resampling	iterations	300	Independent resampling iterations
-GSEA resampling	primary_hop	0	Sixteen primary assignment modes; hop1 is excluded from the primary benchmark
-ChIPseeker comparator	reference_policy	all nearest-gene annotations	Applied uniformly to all Looplook modes in master
-Signal-density analysis	background	analysis universe minus union of Looplook and ChIPseeker genes	Non-assigned control
