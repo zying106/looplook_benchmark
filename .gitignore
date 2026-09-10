@@ -15,3 +15,4 @@ RUN_*.ok
 RUN_FINISHED_WITH_ISSUES.txt
 manuscript/
 CODE_GUIDE_CN.md
+manifests/
